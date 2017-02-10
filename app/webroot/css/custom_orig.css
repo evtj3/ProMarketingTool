@@ -1,0 +1,247 @@
+.panel h1, .panel .h1, .panel h2, .panel .h2, .panel h3, .panel .h3 {
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.topic-title {
+    color: #428BCA;
+    margin-bottom: 30px;
+}
+
+.topic-content h3,
+.topic-content .h3 {
+    font-size: 18px;
+    border: none;
+}
+
+.topic-content table td {
+    padding: 10px;
+    border: 1px dotted;
+    border-left: 3px solid;
+}
+
+.topic-content table th {
+    padding: 10px;
+    border: 1px dotted;
+    border-left: 3px solid;
+    background: #EEEEEE;
+}
+
+.panel-body {
+	padding: 2px !important;
+}
+
+.page-header {
+	margin: 20px 0 20px
+}
+
+table.table-condensed td .btn {
+    border-bottom: 0 !important;
+}
+
+.btn {
+    border-bottom: 3px solid #CCCCCC !important;
+}
+
+.btn:hover {
+    border-bottom: 3px solid #ADADAD !important;
+}
+
+.btn-primary {
+	border-bottom: 3px solid #357EBD !important;
+}
+
+.btn-primary:hover {
+	border-bottom: 3px solid #28588E !important;
+}
+
+.btn-success {
+    border-bottom: 3px solid #4CAE4C !important;
+}
+
+.btn-success:hover {
+    background: #4CAE4C !important;
+    border-bottom: 3px solid #398439 !important;
+}
+
+.simple-box {
+	background-color: #FFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.center-align {
+    text-align: center;
+}
+
+
+
+.box-description {
+	padding: 10px;
+}
+
+.date_created {
+    float: right;
+}
+
+#dropmenu .btn {
+	border: none !important;
+	background: transparent !important;
+}
+
+.nav > li.box-description > a {
+    display: block;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.nav > li.box-description > a.btn-regular {
+    display:inline;
+    padding-left: 0;
+}
+
+.nav > li.box-description > a.btn-regular:hover {
+    background: none;
+    border-bottom: none !important;
+    text-decoration: underline;
+}
+
+.nav > li.box-description > a.btn-primary:hover, .nav > li > a.btn-primary:focus {
+    background: #3276B1;
+    border-bottom: 3px solid #28588E !important;
+}
+
+.no-border {
+	border: 0 !important;
+}
+.no-border-right {
+	border-top-right-radius: 0 !important; 
+	border-bottom-right-radius: 0 !important;
+}
+
+.no-border-left {
+	border-top-left-radius: 0 !important; 
+	border-bottom-left-radius: 0 !important;
+}
+
+.remove-double-border {
+	border: 1px solid #CCCCCC !important;
+}
+
+.remove-double-border:hover {
+    border: 1px solid #ADADAD !important;
+}
+
+.progress {
+	background-color: #F5F5F5;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 8px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.invite-box {
+    padding: 12px !important;
+    height: 72px;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.profile {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile img {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+}
+
+.discussions li {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.discussions li img {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 50px;
+    padding: 1px;
+    float: left;
+}
+
+
+
+.discussions li .discussed_by {
+    color: #428BCA;
+}
+
+.discussions li.student .discussion_content {
+    float: left;
+    width: 180px;
+    margin-left: 5px;
+}
+
+.discussions li.teacher .discussion_content {
+    float: left;
+    width: 170px;
+    margin-right: 5px;
+}
+
+.discussions li input {
+    width: 100%;
+    padding: 5% 2%;
+}
+
+div.spinedit .glyphicon-chevron-up {
+    /*top: -12px;*/
+
+}
+div.spinedit .glyphicon-chevron-down {
+    top: 16px;
+    left: -5px !important;
+}
+div.spinedit .glyphicon-chevron-up, 
+div.spinedit .glyphicon-chevron-down {
+    cursor: pointer;
+    left: 8px;
+    position: relative;
+    width: 12px;
+}
+
+
+
+@media (max-width: 767px) {
+    .date_created {
+        display: none;
+    }
+}
+
+/*    
+td.actions a {
+    font-size: 20px;
+}
+*/
+@font-face {
+  font-family: 'SCRIPTIN';
+  src: url('fonts/SCRIPTIN.eot'); /* IE9 Compat Modes */
+  src: 
+       url('fonts/SCRIPTIN.ttf')  format('truetype');
+       
+}
